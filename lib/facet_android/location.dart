@@ -24,16 +24,16 @@ class LocationOptionsAndroid {
   /// Default options for single (one-shot) location request
   static const LocationOptionsAndroid defaultSingle =
       const LocationOptionsAndroid(
-    interval: 5000,
-    fastestInterval: 2500,
+    interval: 1000,
+    fastestInterval: 500,
     expirationDuration: 30000,
   );
 
   /// Default options for continuous location request
   static const LocationOptionsAndroid defaultContinuous =
       const LocationOptionsAndroid(
-    interval: 5000,
-    fastestInterval: 2500,
+    interval: 1000,
+    fastestInterval: 500,
   );
 
   final int interval;
